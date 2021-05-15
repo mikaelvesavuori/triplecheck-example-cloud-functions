@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="cloud-demo-2896734"
+PROJECT_ID="" # Edit this
 BROKER_USERNAME="triplecheck-broker-sa"
 BROKER_DISPLAYNAME="TripleCheck broker service account"
 
