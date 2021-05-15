@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="" # Edit this
+PROJECT_ID="" # EDIT THIS
 BROKER_USERNAME="triplecheck-broker-sa"
 BROKER_DISPLAYNAME="TripleCheck broker service account"
 

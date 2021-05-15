@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="cloud-demo-2896734"
+PROJECT_ID="" # EDIT THIS
 APP_NAME="triplecheck-broker"
 REGION="europe-west1" # Needs to be a supported region
 ENTRY_POINT="handler" # This is the actual exported function name
