@@ -1,5 +1,7 @@
 # triplecheck-example-cloud-functions
 
+![TripleCheck example implementation](readme/triplecheck-example.png)
+
 ## TripleCheck broker running on Google Cloud Functions
 
 This repo demonstrates a working, basic implementation of a [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) running on Google Cloud Functions with a Firestore database.
