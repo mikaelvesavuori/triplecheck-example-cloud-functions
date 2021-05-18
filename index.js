@@ -34,7 +34,6 @@ exports.handler = async (req, res) => {
 
 /**
  * @description Utility function to get the data we need to run the TripleCheck broker. Expects the full Cloud Function request object.
- * @todo Add to triplecheck-core?
  */
 async function getRequestData(req) {
   const { body, method, url } = req;
