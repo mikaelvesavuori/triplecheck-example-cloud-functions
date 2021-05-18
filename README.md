@@ -39,6 +39,4 @@ Run `npm start` or `yarn start`.
 
 **First ensure the details in `deploy.sh` are correct.**
 
-Note: There is no need to use Docker manually to build the container when we let `gcloud` handle the deployment and build process.
-
 Run `npm run deploy` or `yarn run deploy`.
