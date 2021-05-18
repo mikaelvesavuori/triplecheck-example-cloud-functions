@@ -2,6 +2,8 @@
 const { FirestoreRepository } = require('triplecheck-repository-firestore');
 const { TripleCheckBroker } = require('triplecheck-broker');
 
+const DATABASE_NAME = 'broker-demo'; // <----- Change this if your database has another name
+
 /**
  * @description Basic implementation of TripleCheck broker with the Firestore repository, using Google Cloud Functions as the platform.
  */
@@ -19,7 +21,7 @@ exports.handler = async (req, res) => {
    * some other way of providing credentials.
    * @see https://cloud.google.com/firestore/docs/quickstart-servers
    */
-  const repository = FirestoreRepository(undefined, 'broker-demo');
+  const repository = FirestoreRepository(undefined, DATABASE_NAME);
 
   const { responseData, status, headers } = await TripleCheckBroker(
     request,
